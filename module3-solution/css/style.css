@@ -1,0 +1,22 @@
+.content{
+	border: 1px solid black;
+	background-color: #f8c17e;
+	margin: 12px 0 12px 0;
+	padding: 10px;
+}
+
+body{
+	margin-top: 70px;
+}
+
+.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
+    background-color: red;
+    color: #FFC0CB;
+}
+
+
+@media all and (min-width:768px){
+	.non-visible{
+		display: none;
+	}
+}
